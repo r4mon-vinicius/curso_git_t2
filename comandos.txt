@@ -1,0 +1,16 @@
+Nome: Ramon Vinícius Ferreira de Souza
+Lista de Comandos:
+mkdir curso_git_t2
+git clone https://gitlab.com/mizael.cortez/curso-branchs-ifrn-ead
+git add texto.txt
+git commit -m "Criação do arquivo texto.txt"
+git checkout -b feature-1
+git add texto.txt
+git commit -m "Alteração do conteúdo de texto.txt"
+git checkout main
+git add texto.txt
+git commit -m "Alterando texto.txt"
+git merge feature-1
+git add texto.txt
+git commit -m "Resolve conflito entre main e feature-1"
+git checkout -b add-comandos
